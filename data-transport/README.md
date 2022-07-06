@@ -29,10 +29,10 @@ We will use examples of data transport technologies to find out:
 
 ## Resources
 
-- Slides on [Sending Sensor Data to IoT Platforms](http://www.tamberg.org/fhnw/2021/fs/IdbSensorDataPlatforms.pdf).
-- Slides on [Internet Protocols and HTTP](http://www.tamberg.org/fhnw/2021/fs/IdbInternetProtocols.pdf).
-- Slides on [Messaging Protocols and Data Formats](http://www.tamberg.org/fhnw/2021/fs/IdbMessagingProtocols.pdf).
-- Slides on [Long Range Connectivity with LoRaWAN](http://www.tamberg.org/fhnw/2021/fs/IdbLoRaWANConnectivity.pdf).
+- Slides on [Sending Sensor Data to IoT Platforms](IdbSensorDataPlatforms.pdf).
+- Slides on [Internet Protocols and HTTP](IdbInternetProtocols.pdf).
+- Slides on [Messaging Protocols and Data Formats](IdbMessagingProtocols.pdf).
+- Slides on [Long Range Connectivity with LoRaWAN](IdbLoRaWANConnectivity.pdf).
 
 ## Connecting nRF52840 and Pi using BLE
 Bluetooth Low Energy (BLE) is well suited to connect a microcontroller like the nRF5280 to a dedicated computer like a Raspberry Pi. In such a scenario, the Pi can act as a hub to collect data from multiple sensors all connected to one microcontroller. The Pi, which is more powerful than any microcontroller, can perform initial data processing before forwarding the processed data to a central cloud service or database.
