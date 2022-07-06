@@ -32,17 +32,17 @@ We will use such devices to find out:
 
 ## Reading sensor values
 The available hardware includes a number of sensors:
-* The [button](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#button) as an example of a digital sensor.
-* The [DHT11](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#temperature--humidity-sensor-dht11), a common temperature and humidity sensor.
-* A [light sensor](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#light-sensor-v12) and a [rotary angle sensor](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#rotary-angle-sensor) which are both analog sensors.
+* The [button](https://github.com/fhnw-imvs/fhnw-idb/wiki/Grove-Sensors#button) as an example of a digital sensor.
+* The [DHT11](https://github.com/fhnw-imvs/fhnw-idb/wiki/Grove-Sensors#temperature--humidity-sensor-dht11), a common temperature and humidity sensor.
+* A [light sensor](https://github.com/fhnw-imvs/fhnw-idb/wiki/Grove-Sensors#light-sensor-v12) and a [rotary angle sensor](https://github.com/fhnw-imvs/fhnw-idb/wiki/Grove-Sensors#rotary-angle-sensor) which are both analog sensors.
 
 
 ## Controlling actuators
 The available hardware includes the following actuators:
 
-* The [buzzer](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#buzzer) and the [LED](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#led) as examples of digital actuators.
-* The [chainable RGB LED](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#chainable-rgb-led) with a custom two-wire protocol.
-* The [TM1637 4-digit display](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#4-digit-display-tm1637) with a custom one-wire protocol.
+* The [buzzer](https://github.com/fhnw-imvs/fhnw-idb/wiki/Grove-Actuators#buzzer) and the [LED](https://github.com/fhnw-imvs/fhnw-idb/wiki/Grove-Actuators#led) as examples of digital actuators.
+* The [chainable RGB LED](https://github.com/fhnw-imvs/fhnw-idb/wiki/Grove-Actuators#chainable-rgb-led) with a custom two-wire protocol.
+* The [TM1637 4-digit display](https://github.com/fhnw-imvs/fhnw-idb/wiki/Grove-Actuators#4-digit-display-tm1637) with a custom one-wire protocol.
 
 Actuators can help to make a device more interactive.
 

@@ -54,8 +54,8 @@ Figure 1: Visualization from [Behr Technologies](https://behrtech.com/blog/6-lea
 
 However, Wi-Fi can be used well in prototyping. Our two hardware platforms are or can be equipped with Wi-Fi.
 
-- The [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W) has Wi-Fi on board.
-- The [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express) needs the [FeatherWing ESP32 AirLift](https://github.com/tamberg/fhnw-idb/wiki/FeatherWing-ESP32-AirLift) as Wi-Fi co-processor.
+- The [Raspberry Pi Zero W](https://github.com/fhnw-imvs/fhnw-idb/wiki/Raspberry-Pi-Zero-W) has Wi-Fi on board.
+- The [Feather nRF52840 Express](https://github.com/fhnw-imvs/fhnw-idb/wiki/Feather-nRF52840-Express) needs the [FeatherWing ESP32 AirLift](https://github.com/fhnw-imvs/fhnw-idb/wiki/FeatherWing-ESP32-AirLift) as Wi-Fi co-processor.
 
 ## Using the ThingSpeak IoT platform
 We will use [ThingSpeak](https://thingspeak.com/) as our *cloud backend*. ThingSpeak is an IoT analytics platform that allows you to aggregate, visualize, and analyze live data streams in the cloud. 
@@ -173,7 +173,7 @@ Try these examples with Python on the Raspberry Pi Zero W.
 
 ### Wi-Fi
 
-Use the information [Configure Wi-Fi](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#configure-wi-fi) on the Wiki to add your Pi to your WLAN.
+Use the information [Configure Wi-Fi](https://github.com/fhnw-imvs/fhnw-idb/wiki/Raspberry-Pi-Zero-W#configure-wi-fi) on the Wiki to add your Pi to your WLAN.
 
 Note that you can add to the configuration file `wpa_supplicant.conf` more than one network. Consider to setup a hotspot on your smartphone and to access and use a WLAN anywhere.
 
