@@ -24,7 +24,7 @@ We will set up two boards, a Raspberry Pi and a microcontroller, so you can answ
 
 ## Resources
 
-- Slides [Introduction to the Internet of Things](introduction/IdbInternetOfThings.pdf).
+- Slides [Introduction to the Internet of Things](IdbInternetOfThings.pdf).
 
 ## Python vs. MicroPython vs. CircuitPython
 
