@@ -10,6 +10,6 @@ How to control q TM1637 4-digit display with CircuitPython.
 * There seems to be no official TM1637 CircuitPython library yet.
 
 ## Hardware
-* [Feather nRF52840 Express](https://github.com/fhnw-idb/fhnw-idb/wiki/Feather-nRF52840-Express) microcontroller.
-* [Grove shield for Feather](https://github.com/fhnw-idb/fhnw-idb/wiki/Grove-Adapters#grove-shield-for-feather) to connect sensors.
-* [4-digit display](https://github.com/fhnw-idb/fhnw-idb/wiki/Grove-Actuators#4-digit-display-tm1637) wired to Grove _D4_ (nRF52840 _D9_ and _D10_).
+* [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express) microcontroller.
+* [Grove shield for Feather](https://github.com/tamberg/fhnw-idb/wiki/Grove-Adapters#grove-shield-for-feather) to connect sensors.
+* [4-digit display](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#4-digit-display-tm1637) wired to Grove _D4_ (nRF52840 _D9_ and _D10_).

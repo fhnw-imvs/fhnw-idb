@@ -8,9 +8,9 @@ The example is based on the information found in:
 - this [post](https://www.deviceplus.com/raspberry-pi/lets-build-mobile-gadget-using-compact-raspberry-pi-zero-build-environment-check-device-using-grove-sensor/)
 
 ## Hardware
-* [Raspberry Pi Zero W](https://github.com/fhnw-idb/fhnw-idb/wiki/Raspberry-Pi-Zero-W) controller.
-* [Grove Base Hat for Raspberry Pi](https://github.com/fhnw-idb/fhnw-idb/wiki/Grove-Adapters#grove-base-hat-for-raspberry-pi) to connect sensors.
-* [DHT11](https://github.com/fhnw-idb/fhnw-idb/wiki/Grove-Sensors#temperature--humidity-sensor-dht11) wired to Grove _D16_ (Raspberry Pi _Pin 16_) (see figure 1).
+* [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W) controller.
+* [Grove Base Hat for Raspberry Pi](https://github.com/tamberg/fhnw-idb/wiki/Grove-Adapters#grove-base-hat-for-raspberry-pi) to connect sensors.
+* [DHT11](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#temperature--humidity-sensor-dht11) wired to Grove _D16_ (Raspberry Pi _Pin 16_) (see figure 1).
 
 <img src="raspberry-dht.jpg" width="640">
 

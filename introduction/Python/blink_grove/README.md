@@ -1,9 +1,9 @@
 # Blink
 
 ## Hardware
-* [Raspberry Pi Zero W](https://github.com/fhnw-idb/fhnw-idb/wiki/Raspberry-Pi-Zero-W) controller.
-* [Grove Base Hat for Raspberry Pi](https://github.com/fhnw-idb/fhnw-idb/wiki/Grove-Adapters#grove-base-hat-for-raspberry-pi) to connect sensors.
-* [Grove Red LED](https://github.com/fhnw-idb/fhnw-idb/wiki/Grove-Actuators#led) wired to Grove _D5_ (see figure 1).
+* [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W) controller.
+* [Grove Base Hat for Raspberry Pi](https://github.com/tamberg/fhnw-idb/wiki/Grove-Adapters#grove-base-hat-for-raspberry-pi) to connect sensors.
+* [Grove Red LED](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators#led) wired to Grove _D5_ (see figure 1).
 
 <table><tr><td><img width="640" src="setup.jpg"></td></tr></table>
 
@@ -33,7 +33,7 @@ Use the file [blink.py](./blink.py) (or the Blinka version [blink.py](./blink.py
    $ scp blink.py pi@192.168.0.11:
    ```
 
-   **Note**: Use the IP-address of your Pi (see [Find your Pi](https://github.com/fhnw-idb/fhnw-idb/wiki/Raspberry-Pi-Zero-W#find-your-pi)).
+   **Note**: Use the IP-address of your Pi (see [Find your Pi](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W#find-your-pi)).
 
 3. Open a terminal to the Pi with `ssh`, e.g.
 

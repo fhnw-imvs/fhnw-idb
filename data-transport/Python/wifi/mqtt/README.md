@@ -11,4 +11,4 @@ We will use for our examples the [Eclipse Paho Python](https://github.com/eclips
 * Run example from the command line with `python3 thingspeak_mqtt.py`
 
 ## Hardware
-* [Raspberry Pi Zero W](https://github.com/fhnw-idb/fhnw-idb/wiki/Raspberry-Pi-Zero-W) controller.
+* [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W) controller.
