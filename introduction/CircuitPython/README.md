@@ -15,7 +15,7 @@ Use the steps described in the [Installing CircuitPython](https://learn.adafruit
 
 1. Check if the Mu editor is installed. If not, follow [these steps](https://learn.adafruit.com/welcome-to-circuitpython/installing-mu-editor).
 
-2. Check that the [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express) is connected via USB to your computer.
+2. Check that the [Feather nRF52840 Express](https://github.com/fhnw-idb/fhnw-idb/wiki/Feather-nRF52840-Express) is connected via USB to your computer.
 
 3. Check that you see the drive `CIRCUITPY` drive on your desktop.
 

@@ -11,14 +11,14 @@ The libraries in each release are compiled for all recent major versions of Circ
 * Set up the [hardware](#Hardware), connect it to your computer via USB.
 * Copy the content of [dht.py](dht.py) to _code.py_ on the _CIRCUITPY_ drive.
 * Copy the library `adafruit_dht.mpy` into the folder `lib` on the _CIRCUITPY_ drive.
-* Consider opening the [serial plotter](https://codewith.mu/en/tutorials/1.0/plotter) (available if you are using the [Mu Python editor](https://github.com/tamberg/fhnw-idb/wiki/Mu-Python-editor)).
+* Consider opening the [serial plotter](https://codewith.mu/en/tutorials/1.0/plotter) (available if you are using the [Mu Python editor](https://github.com/fhnw-idb/fhnw-idb/wiki/Mu-Python-editor)).
 
 **Note**, that the timestamps are not synchronized with the actual time. We are not using a battery-buffered Real Time Clock (RTC).
 
 ## Hardware
-* [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express) microcontroller.
-* [Grove shield for Feather](https://github.com/tamberg/fhnw-idb/wiki/Grove-Adapters#grove-shield-for-feather) to connect sensors.
-* [DHT11](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors#temperature--humidity-sensor-dht11) wired to Grove _D4_ (nRF52840 _D9_) (see figure 1).
+* [Feather nRF52840 Express](https://github.com/fhnw-idb/fhnw-idb/wiki/Feather-nRF52840-Express) microcontroller.
+* [Grove shield for Feather](https://github.com/fhnw-idb/fhnw-idb/wiki/Grove-Adapters#grove-shield-for-feather) to connect sensors.
+* [DHT11](https://github.com/fhnw-idb/fhnw-idb/wiki/Grove-Sensors#temperature--humidity-sensor-dht11) wired to Grove _D4_ (nRF52840 _D9_) (see figure 1).
 
 <img src="dht.jpg" width="640">
 

@@ -57,6 +57,10 @@ Check the following points:
 
 - Connect the Feather nRF52840 Express via USB to your computer. Check if you see the `CIRCUITPY` drive on your desktop.
 
+**Note:** CircuitPython can be used on Raspberry Pi's as well. There are 2 possible approaches:
+1. Using the Blinka Library, see Adafruit's documentation [CircuitPython on Linux and Raspberry Pi](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux)
+2. CircuitPython standalone, see [Zero W](https://circuitpython.org/board/raspberrypi_zero_w/)
+
 The **CircuitPython Reference Docs** can be found on https://circuitpython.readthedocs.io/en/latest/README.html
 
 ## Getting Started with CircuitPython on nRF52840

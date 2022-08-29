@@ -23,8 +23,8 @@ From the [CircuitPython libraries](https://circuitpython.org/libraries) bundle:
 * Copy _lib/adafruit_bus_device/*_ (see [source](https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/) and [docs](https://circuitpython.readthedocs.io/projects/busdevice/en/latest/index.html)).
 
 ## Hardware
-* [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express) microcontroller.
-* [FeatherWing RFM95W](https://github.com/tamberg/fhnw-idb/wiki/FeatherWing-RFM95W) LoRaWAN module.
+* [Feather nRF52840 Express](https://github.com/fhnw-idb/fhnw-idb/wiki/Feather-nRF52840-Express) microcontroller.
+* [FeatherWing RFM95W](https://github.com/fhnw-idb/fhnw-idb/wiki/FeatherWing-RFM95W) LoRaWAN module.
 
 ## Credits
 * Based on https://github.com/adafruit/Adafruit_CircuitPython_TinyLoRa/tree/master/examples licensed under MIT License
