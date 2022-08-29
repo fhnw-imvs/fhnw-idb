@@ -13,8 +13,8 @@ From the [CircuitPython libraries](https://circuitpython.org/libraries) bundle:
 * Copy _lib/adafruit_bus_device/*_ (see [source](https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/) and [docs](https://circuitpython.readthedocs.io/projects/busdevice/en/latest/index.html)).
 
 ## Hardware
-* [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express) microcontroller.
-* [FeatherWing ESP32 AirLift](https://github.com/tamberg/fhnw-idb/wiki/FeatherWing-ESP32-AirLift) Wi-Fi module.
+* [Feather nRF52840 Express](https://github.com/fhnw-imvs/fhnw-idb/wiki/Feather-nRF52840-Express) microcontroller.
+* [FeatherWing ESP32 AirLift](https://github.com/fhnw-imvs/fhnw-idb/wiki/FeatherWing-ESP32-AirLift) Wi-Fi module.
 
 ## Credits
 * Based on https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/tree/master/examples licensed under MIT License

@@ -30,31 +30,31 @@ For additional motivation try this mini-challenge:
 ## Hardware
 The following modular hardware is available in your IoT kit:
 
-* [Raspberry Pi Zero W](https://github.com/tamberg/fhnw-idb/wiki/Raspberry-Pi-Zero-W) - a small Linux computer.
-* [Feather nRF52840 Express](https://github.com/tamberg/fhnw-idb/wiki/Feather-nRF52840-Express) - a microcontroller.
-* [FeatherWing ESP32 AirLift](https://github.com/tamberg/fhnw-idb/wiki/FeatherWing-ESP32-AirLift) - a Wi-Fi radio module.
-* [FeatherWing RFM95W](https://github.com/tamberg/fhnw-idb/wiki/FeatherWing-RFM95W) - a LoRaWAN radio module.
-* [Grove Sensors](https://github.com/tamberg/fhnw-idb/wiki/Grove-Sensors) & [Actuators](https://github.com/tamberg/fhnw-idb/wiki/Grove-Actuators) - to measure and control.
-* [Grove Adapters](https://github.com/tamberg/fhnw-idb/wiki/Grove-Adapters) - to wire things up.
+* [Raspberry Pi Zero W](https://github.com/fhnw-imvs/fhnw-idb/wiki/Raspberry-Pi-Zero-W) - a small Linux computer.
+* [Feather nRF52840 Express](https://github.com/fhnw-imvs/fhnw-idb/wiki/Feather-nRF52840-Express) - a microcontroller.
+* [FeatherWing ESP32 AirLift](https://github.com/fhnw-imvs/fhnw-idb/wiki/FeatherWing-ESP32-AirLift) - a Wi-Fi radio module.
+* [FeatherWing RFM95W](https://github.com/fhnw-imvs/fhnw-idb/wiki/FeatherWing-RFM95W) - a LoRaWAN radio module.
+* [Grove Sensors](https://github.com/fhnw-imvs/fhnw-idb/wiki/Grove-Sensors) & [Actuators](https://github.com/fhnw-imvs/fhnw-idb/wiki/Grove-Actuators) - to measure and control.
+* [Grove Adapters](https://github.com/fhnw-imvs/fhnw-idb/wiki/Grove-Adapters) - to wire things up.
 
 E.g. to build a battery-powered device with a sensor and connectivity:
 
 <img src="https://live.staticflickr.com/65535/32744402117_ee316ec1a9_z.jpg" width="540">
 
 ## Wiki
-For additional resources, check the [IoT Data Collection Wiki](https://github.com/tamberg/fhnw-idb/wiki):
+For additional resources, check the [IoT Data Collection Wiki](https://github.com/fhnw-imvs/fhnw-idb/wiki):
 
-* [Books](https://github.com/tamberg/fhnw-idb/wiki/IoT-Books)
-* [Hardware](https://github.com/tamberg/fhnw-idb/wiki#hardware)
-* [IoT platforms](https://github.com/tamberg/fhnw-idb/wiki#iot-platforms)
-* [Development tools](https://github.com/tamberg/fhnw-idb/wiki#development-tools)
+* [Books](https://github.com/fhnw-imvs/fhnw-idb/wiki/IoT-Books)
+* [Hardware](https://github.com/fhnw-imvs/fhnw-idb/wiki#hardware)
+* [IoT platforms](https://github.com/fhnw-imvs/fhnw-idb/wiki#iot-platforms)
+* [Development tools](https://github.com/fhnw-imvs/fhnw-idb/wiki#development-tools)
 
 ## License
 
 Unless noted otherwise:
 
 * Source code examples in this repository are declared Public Domain [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
-* Slides and content by [J. Luthiger](https://www.fhnw.ch/en/people/juerg-luthiger) based on work by [T. Amberg](https://twitter.com/tamberg) are licensed under Creative Commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+* Slides and content by [J. Luthiger](https://www.fhnw.ch/en/people/juerg-luthiger) based on work by [T. Amberg](https://twitter.com/fhnw-imvs) are licensed under Creative Commons [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Publishing your own code?
 
