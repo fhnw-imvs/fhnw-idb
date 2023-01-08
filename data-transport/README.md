@@ -7,7 +7,7 @@
 4. [Using the ThingSpeak IoT platform](#using-the-thingspeak-iot-platform)
 5. [Sending data to the ThingSpeak REST API](#sending-data-to-the-thingspeak-rest-api)
 6. [Sending data to the ThingSpeak MQTT API](#sending-data-to-the-thingspeak-mqtt-api)
-7. [Sending data to ThingSpeak with LoRaWAN](sending-data-to-thingspeak-with-lorawan)
+7. [Sending data to ThingSpeak with LoRaWAN](#sending-data-to-thingspeak-with-lorawan)
 8. [CircuitPython examples](#circuitpython-examples)
 9. [Python examples](#python-examples)
 
