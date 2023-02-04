@@ -20,6 +20,7 @@ A *Sensor* is used to measure the real world physical conditions and a microcont
 
 We will use such devices to find out:
 
+* how a physical property can be measured and converted into an electrical signal?
 * how to connect to the physical world?
 * how to print out sensor values?
 * how accurate the sensor is?
@@ -29,6 +30,10 @@ We will use such devices to find out:
 ## Resources
 - Slides on [Microcontrollers, Sensors & Actuators](IdbMcuSensorsActuators.pdf).
 - Slides [From Prototype to Connected Product](IdbPrototypeToProduct.pdf).
+
+## Measuring physical properties
+Read the following resources the get an idea how a physical property is measured and converted into an electronical signal:
+* The DHT22 (and DHT11) is a basic, low-cost digital temperature and humidity sensor. It uses a [capacitive humidity sensor](https://howtomechatronics.com/tutorials/arduino/dht11-dht22-sensors-temperature-and-humidity-tutorial-using-arduino/) and a [thermistor](https://learn.adafruit.com/thermistor) to measure the surrounding air and spits out a digital signal on the data pin (no analog input pins needed). [More info](https://www.adafruit.com/product/385).
 
 ## Reading sensor values
 The available hardware includes a number of sensors:
