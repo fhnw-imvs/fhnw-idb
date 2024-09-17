@@ -33,7 +33,7 @@ The following modular hardware is available in your IoT kit:
 * [Raspberry Pi Zero W](https://github.com/fhnw-imvs/fhnw-idb/wiki/Raspberry-Pi-Zero-W) - a small Linux computer.
 * [Feather nRF52840 Express](https://github.com/fhnw-imvs/fhnw-idb/wiki/Feather-nRF52840-Express) - a microcontroller.
 * [FeatherWing ESP32 AirLift](https://github.com/fhnw-imvs/fhnw-idb/wiki/FeatherWing-ESP32-AirLift) - a Wi-Fi radio module.
-* [FeatherWing RFM95W](https://github.com/fhnw-imvs/fhnw-idb/wiki/FeatherWing-RFM95W) - a LoRaWAN radio module.
+* [FeatherWing RFM95W](https://github.com/fhnw-imvs/fhnw-idb/wiki/FeatherWing-RFM95W) - a LoRaWAN radio module (challenges only).
 * [Grove Sensors](https://github.com/fhnw-imvs/fhnw-idb/wiki/Grove-Sensors) & [Actuators](https://github.com/fhnw-imvs/fhnw-idb/wiki/Grove-Actuators) - to measure and control.
 * [Grove Adapters](https://github.com/fhnw-imvs/fhnw-idb/wiki/Grove-Adapters) - to wire things up.
 
