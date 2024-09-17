@@ -53,7 +53,7 @@ Check the following points:
     Note for MacOS Users with *Catalina* or *Big Sur*:  
     Start the application the first time with the CTRL key pressed to be able to accept the security restrictions by the macOS.
 
-    You will find in [this chapter](https://learn.adafruit.com/welcome-to-circuitpython/creating-and-editing-code#1-use-an-editor-that-writes-out-the-file-completely-when-you-save-it-2977444-16) other editors, which are suitable for CircuitPython programming.
+    You will find in [this chapter]([https://learn.adafruit.com/welcome-to-circuitpython/creating-and-editing-code#1-use-an-editor-that-writes-out-the-file-completely-when-you-save-it-2977444-16](https://learn.adafruit.com/welcome-to-circuitpython/recommended-editors)) other editors, which are suitable for CircuitPython programming.
 
 - Connect the Feather nRF52840 Express via USB to your computer. Check if you see the `CIRCUITPY` drive on your desktop.
 
