@@ -11,7 +11,7 @@ The libraries in each release are compiled for all recent major versions of Circ
 * Set up the [hardware](#Hardware), connect it to your computer via USB.
 * Copy the content of [dht.py](dht.py) to _code.py_ on the _CIRCUITPY_ drive.
 * Copy the library `adafruit_dht.mpy` into the folder `lib` on the _CIRCUITPY_ drive.
-* Consider opening the [serial plotter](https://codewith.mu/en/tutorials/1.0/plotter) (available if you are using the [Mu Python editor](https://github.com/fhnw-imvs/fhnw-idb/wiki/Mu-Python-editor)).
+* Consider opening the [serial plotter](https://codewith.mu/en/tutorials/1.2/plotter) (available if you are using the [Mu Python editor](https://github.com/fhnw-imvs/fhnw-idb/wiki/Mu-Python-editor)).
 
 **Note**, that the timestamps are not synchronized with the actual time. We are not using a battery-buffered Real Time Clock (RTC).
 

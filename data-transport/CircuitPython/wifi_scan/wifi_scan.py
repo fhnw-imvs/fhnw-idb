@@ -15,4 +15,4 @@ while True:
     print("\nScanning...")
     networks = wifi.scan_networks()
     for network in networks:
-        print(f"  rssi: {network.rssi}, ssid: {network.ssid}")
+        print(f"rssi: {network.rssi}, ssid: {network.ssid}")
