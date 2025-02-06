@@ -23,5 +23,5 @@ while not wifi.is_connected:
         print("Cannot connect", e)
         continue
 
-print("Connected to", str(wifi.ssid, "utf-8"))
-print("IP address", wifi.pretty_ip(wifi.ip_address))
+print(f"Connected to {wifi.ap_info.ssid}")
+print(f"IP address is {wifi.ipv4_address}")
