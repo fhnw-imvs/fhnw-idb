@@ -1,5 +1,5 @@
 # Controlling a TM1637 4-digit display
-How to control q TM1637 4-digit display with CircuitPython.
+How to control the *TM1637 4-digit* display with CircuitPython.
 
 ## Running the example
 * Set up the [hardware](#Hardware), connect it to your computer via USB.
