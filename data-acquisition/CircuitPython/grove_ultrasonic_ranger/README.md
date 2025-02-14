@@ -1,5 +1,5 @@
-# Controlling a Chainable RGB LED
-How to control the *Chainable RGB LED* with CircuitPython.
+# Controlling a Ultrasonic Ranger
+How to control the *Ultrasonic Ranger* with CircuitPython.
 
 ## Running the example
 * Set up the [hardware](#Hardware), connect it to your computer via USB.
@@ -7,7 +7,7 @@ How to control the *Chainable RGB LED* with CircuitPython.
 * Copy the content of [test_ultrasonic.py](test_ultrasonic.py) to _code.py_ on the _CIRCUITPY_ drive.
 
 ## Library
-* There seems to be no official Chainable RGB LED CircuitPython library from Adafruit yet.
+* There seems to be no official Ultrasonic Ranger CircuitPython library from Adafruit yet.
 
 ## Hardware
 * [Feather nRF52840 Express](https://github.com/fhnw-imvs/fhnw-idb/wiki/Feather-nRF52840-Express) microcontroller.

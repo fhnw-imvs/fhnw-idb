@@ -39,6 +39,7 @@ The available hardware includes a number of sensors:
 * The [button](https://github.com/fhnw-imvs/fhnw-idb/wiki/Grove-Sensors#button) as an example of a digital sensor.
 * The [DHT11](https://github.com/fhnw-imvs/fhnw-idb/wiki/Grove-Sensors#temperature--humidity-sensor-dht11), a common temperature and humidity sensor.
 * A [light sensor](https://github.com/fhnw-imvs/fhnw-idb/wiki/Grove-Sensors#light-sensor-v12) and a [rotary angle sensor](https://github.com/fhnw-imvs/fhnw-idb/wiki/Grove-Sensors#rotary-angle-sensor) which are both analog sensors.
+* A [Ultrasonic Ranger](https://github.com/fhnw-imvs/fhnw-idb/tree/master/data-acquisition/CircuitPython/grove_ultrasonic_ranger) to read the distance.
 
 
 ## Controlling actuators
