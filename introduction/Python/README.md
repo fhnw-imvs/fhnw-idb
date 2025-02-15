@@ -2,9 +2,8 @@
 
 1. [Prerequisites](#prerequisites)
 2. [Install Python 3](#install-python-3)
-3. [Install Grove](#install-grove)
-4. [Install Blinka](#install-blinka)
-5. [Run your first program](#run-your-first-program)
+3. [Install Blinka](#install-blinka) or [Install Grove](#install-grove)
+4. [Run your first program](#run-your-first-program)
 
 ## Prerequisites
 The following steps require a Raspberry Pi Zero W with Raspberry Pi OS Lite, a Linux operating system. To install it, see [Raspberry Pi Zero W Setup](https://github.com/fhnw-imvs/fhnw-idb/wiki/Raspberry-Pi-Zero-W#setup). Make sure to [configure Wi-Fi](https://github.com/fhnw-imvs/fhnw-idb/wiki/Raspberry-Pi-Zero-W#1-flash-raspberry-pi-os-bookworm-onto-an-sd-card) and [enable SSH access](https://github.com/fhnw-imvs/fhnw-idb/wiki/Raspberry-Pi-Zero-W#1-flash-raspberry-pi-os-bookworm-onto-an-sd-card) so you can [find your Pi](https://github.com/fhnw-imvs/fhnw-idb/wiki/Raspberry-Pi-Zero-W#2-boot-the-raspberry-pi-and-connect-via-ssh), if your computer is in the same local Wi-Fi network.
@@ -21,7 +20,7 @@ You need to install `pip3` to be able to dd python packages to your project. Ins
 ```shell
 $ sudo apt-get install python3-pip
 $ pip --version
-pip 20.3.4 from /usr/lib/python3/dist-packages/pip (python 3.9)
+pip 23.0.1 from /usr/lib/python3/dist-packages/pip (python 3.11)
 ```
 
 **Optional:** If you don't have Python3 installed, install it with:
