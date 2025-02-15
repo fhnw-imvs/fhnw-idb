@@ -36,17 +36,6 @@ The [python documentation](https://www.raspberrypi.org/documentation/usage/pytho
 **Note:**  
 If you are using *Raspberry Pi OS Bookworm*, check [this information](https://www.raspberrypi.com/documentation/computers/os.html#python-on-raspberry-pi). 
 
-## Install Grove
-To access the GPIOs on the Pi and work with Grove sensors and actuators we use the [Grove Python package](https://github.com/Seeed-Studio/grove.py).
-
-Install the Grove Python package with:
-
-```shell
-$ sudo pip install grove.py
-```
-
-Here are some [code examples](https://github.com/Seeed-Studio/grove.py/blob/master/doc/README.md#gui-graphical-user-interface) by Seeed Studio.
-
 ## Install Blinka
 **Note:** The advantage of this approach is that you can use the same CircuitPython code on the Raspberry Pi as on the microcontroller.
 
@@ -58,6 +47,18 @@ $ sudo pip install --upgrade adafruit-python-shell
 $ wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/raspi-blinka.py
 $ sudo python3 raspi-blinka.py
 ```
+## Install Grove
+**Note:** If you want to work with pure Python programming, you must install the corresponding Python package in order to access the hardware.
+
+To access the GPIOs on the Pi and work with Grove sensors and actuators we use the [Grove Python package](https://github.com/Seeed-Studio/grove.py).
+
+Install the Grove Python package with:
+
+```shell
+$ sudo pip install grove.py
+```
+
+Here are some [code examples](https://github.com/Seeed-Studio/grove.py/blob/master/doc/README.md#gui-graphical-user-interface) by Seeed Studio.
 
 ## Run your first program
 
