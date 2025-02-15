@@ -14,21 +14,21 @@ A fresh installation of the Raspberry Pi OS Lite has **Python 3 preinstalled**. 
 
 ```shell
 $ python --version
-Python 3.9.2
+Python 3.11.2
 ```
 
-If you don't have Python3 installed, install it with:
-```shell
-$ sudo apt update
-$ sudo apt install python3
-````
-
-Additionally, you need `pip3` to add python packages to your project. Install `pip3` as follows:
+You need to install `pip3` to be able to dd python packages to your project. Install `pip3` as follows:
 ```shell
 $ sudo apt-get install python3-pip
 $ pip --version
 pip 20.3.4 from /usr/lib/python3/dist-packages/pip (python 3.9)
 ```
+
+**Optional:** If you don't have Python3 installed, install it with:
+```shell
+$ sudo apt update
+$ sudo apt install python3
+````
 
 The [python documentation](https://www.raspberrypi.org/documentation/usage/python/) includes chapters on [installing libraries](https://www.raspberrypi.com/documentation/computers/os.html#installing-python-libraries) and using [GPIO in Python](https://www.raspberrypi.org/documentation/usage/gpio/python/README.md).
 
