@@ -62,7 +62,11 @@ wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/m
 sudo -E env PATH=$PATH python3 raspi-blinka.py
 ```
 
-and test it using the [Blinka Test](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi#blinka-test-3030038).
+and test it using the [Blinka Test](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi#blinka-test-3030038) after a restart and activation of the virtual environment:
+
+```bash
+source env/bin/activate
+```
 
 ## Install Grove
 **Note:** If you want to work with pure Python programming, you must install the corresponding Python package in order to access the hardware.
