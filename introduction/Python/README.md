@@ -44,6 +44,8 @@ $ sudo pip install grove.py
 Here are some [code examples](https://github.com/Seeed-Studio/grove.py/blob/master/doc/README.md#gui-graphical-user-interface) by Seeed Studio.
 
 ## Install Blinka
+**Note: **The advantage of this approach is that you can use the same CircuitPython code on the Raspberry Pi as on the microcontroller.
+
 As an alternative to Grove and for additional sensor libraries we use the [Blinka Python package](https://github.com/adafruit/Adafruit_Blinka).
 
 Install the Blinka Python package with the following steps, based on [this tutorial](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi) by Adafruit:
