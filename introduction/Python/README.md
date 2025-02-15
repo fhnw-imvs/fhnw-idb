@@ -40,12 +40,30 @@ If you are using *Raspberry Pi OS Bookworm*, check [this information](https://ww
 
 Install the [Blinka Python package](https://github.com/adafruit/Adafruit_Blinka) with the following steps, based on [this tutorial](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi) by Adafruit:
 
+Frist create a [Virtual Environment](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi#setup-virtual-environment-3157129))
+
+```bash
+sudo apt install python3-venv
+python3 -m venv env --system-site-packages
 ```
-$ sudo pip install --upgrade setuptools
-$ sudo pip install --upgrade adafruit-python-shell
-$ wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/raspi-blinka.py
-$ sudo python3 raspi-blinka.py
+
+Activate the virtual environment (every time the Pi is rebooted):
+
+```bash
+source env/bin/activate
 ```
+
+Install the Adafruit packages with:
+
+```bash
+cd ~
+pip3 install --upgrade adafruit-python-shell
+wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/raspi-blinka.py
+sudo -E env PATH=$PATH python3 raspi-blinka.py
+```
+
+and test it using the [Blinka Test](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi#blinka-test-3030038).
+
 ## Install Grove
 **Note:** If you want to work with pure Python programming, you must install the corresponding Python package in order to access the hardware.
 
