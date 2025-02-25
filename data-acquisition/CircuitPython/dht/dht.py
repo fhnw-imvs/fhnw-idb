@@ -18,14 +18,10 @@ while True:
         # Read the humidity and convert it to integer
         humidity = int(round(dht.humidity))
         # Print timestamp, temperatur, humidity
-        print("{:d}:{:02d}:{:02d},{:g},{:g}".format(
-            t.tm_hour, t.tm_min, t.tm_sec, temperature, humidity))
-
+        print(f"{t.tm_hour:d}:{t.tm_min:02d}:{t.tm_sec:02d},{temperature:0.1f},{humidity:0.1f}")
     except RuntimeError as e:
         # Reading doesn't always work! Just print error and we'll try again
-        print("{:d}:{:02d}:{:02d},{:g},{:g}".format(
-            t.tm_hour, t.tm_min, t.tm_sec, -1, -1))
-
+        print(f"{t.tm_hour:d}:{t.tm_min:02d}:{t.tm_sec:02d},-1,-1")
     end = time.time()
     # Wait for the remaining time
     time.sleep(INTERVAL - (end - start))
