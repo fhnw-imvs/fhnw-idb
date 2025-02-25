@@ -55,7 +55,7 @@ Actuators can help to make a device more interactive.
 First, try these examples with CircuitPython on the nRF52840:
 * [Reading analog sensor input](CircuitPython/analog_input), e.g. light or rotation.
 * [Reading digital sensor input](CircuitPython/digital_input), e.g. from a button.
-* [Reading a DHT temperature & humidity sensor](CircuitPython/dht).
+* Reading a DHT temperature & humidity with [a DHT sensor](CircuitPython/dht) or [a SHT sensor](CircuitPython/sht).
 
 Then, add an actuator to provide some interactive feedback:
 * [Controlling digital actuators](CircuitPython/digital_output), e.g. a buzzer or LED.
