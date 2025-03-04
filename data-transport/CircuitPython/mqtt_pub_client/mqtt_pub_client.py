@@ -46,7 +46,7 @@ mqtt_client = MQTT.MQTT(
 )
 
 mqtt_client.on_connect = handle_connect
-mqtt_client.on_message = handle_publish
+mqtt_client.on_publish = handle_publish
 
 print("Attempting to connect to %s" % mqtt_client.broker)
 mqtt_client.connect()
