@@ -2,13 +2,13 @@ import board
 import busio
 import digitalio
 import time
+import adafruit_connection_manager
 from adafruit_esp32spi import adafruit_esp32spi
-from adafruit_esp32spi import adafruit_esp32spi_socket
-from adafruit_minimqtt import adafruit_minimqtt
+import adafruit_minimqtt.adafruit_minimqtt as MQTT
 
 # TODO: Set your Wi-Fi ssid, password
-wifi_ssid = "MY_SSID"
-wifi_password = "MY_PASSWORD"
+ssid = "MY_SSID"
+password = "MY_PASSWORD"
 
 # FeatherWing ESP32 AirLift, nRF52840
 cs = digitalio.DigitalInOut(board.D13)
@@ -19,15 +19,15 @@ spi = busio.SPI(board.SCK, board.MOSI, board.MISO)
 wifi = adafruit_esp32spi.ESP_SPIcontrol(spi, cs, rdy, rst)
 
 while not wifi.is_connected:
-    print("\nConnecting to Wi-Fi...")
+    print("\nConnecting...")
     try:
-        wifi.connect_AP(wifi_ssid, wifi_password)
+        wifi.connect_AP(ssid, password)
     except RuntimeError as e:
-        print("Cannot connect to Wi-Fi", e)
+        print("Cannot connect", e)
         continue
 
-print("Wi-Fi connected to", str(wifi.ssid, "utf-8"))
-print("IP address", wifi.pretty_ip(wifi.ip_address))
+print(f"Connected to {wifi.ap_info.ssid}")
+print(f"IP address is {wifi.ipv4_address}")
 
 # MQTT setup
 mqtt_broker = "test.mosquitto.org"
@@ -39,15 +39,16 @@ def handle_connect(client, userdata, flags, rc):
 def handle_publish(client, userdata, topic, pid):
     print("Published to {0} with PID {1}".format(topic, pid))
 
-adafruit_minimqtt.set_socket(adafruit_esp32spi_socket, wifi)
-
-mqtt_client = adafruit_minimqtt.MQTT(broker=mqtt_broker, is_ssl=False)
-
 # Set callback handlers
-mqtt_client.on_connect = handle_connect
-mqtt_client.on_publish = handle_publish
+mqtt_client = MQTT.MQTT(
+    broker=mqtt_broker,
+    socket_pool=adafruit_connection_manager.get_radio_socketpool(wifi)
+)
 
-print("\nConnecting to {0}".format(mqtt_broker))
+mqtt_client.on_connect = handle_connect
+mqtt_client.on_message = handle_publish
+
+print("Attempting to connect to %s" % mqtt_client.broker)
 mqtt_client.connect()
 
 while True:
