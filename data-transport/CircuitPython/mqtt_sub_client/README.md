@@ -11,8 +11,9 @@ How to subscribe to a MQTT topic with the FeatherWing ESP32 AirLift Wi-Fi module
 From the [CircuitPython libraries](https://circuitpython.org/libraries) bundle:
 * Copy _lib/adafruit_bus_device/*_ (see [source](https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/) and [docs](https://circuitpython.readthedocs.io/projects/busdevice/en/latest/)).
 * Copy _lib/adafruit_esp32spi/*_ (see [source](https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/) and [docs](https://circuitpython.readthedocs.io/projects/esp32spi/en/latest/)).
-* Copy _lib/adafruit_logging.mpy_ (see [source](https://github.com/adafruit/Adafruit_CircuitPython_Logging) and [docs](https://circuitpython.readthedocs.io/projects/logging/en/latest/)).
 * Copy _lib/adafruit_minimqtt/*_ (see [source](https://github.com/adafruit/Adafruit_CircuitPython_MiniMQTT/) and [docs](https://circuitpython.readthedocs.io/projects/minimqtt/en/latest/)).
+* Copy _lib/adafruit_connection_manager.mpy_ (see [source](https://github.com/adafruit/Adafruit_CircuitPython_ConnectionManager) and [docs](https://docs.circuitpython.org/projects/connectionmanager/en/latest/)).
+* Copy _lib/adafruit_ticks.mpy_ (see [source](https://github.com/adafruit/Adafruit_CircuitPython_Ticks) and [docs](https://docs.circuitpython.org/projects/ticks/en/latest/)).
 
 ## Hardware
 * [Feather nRF52840 Express](https://github.com/fhnw-imvs/fhnw-idb/wiki/Feather-nRF52840-Express) microcontroller.
