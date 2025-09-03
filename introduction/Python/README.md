@@ -5,7 +5,7 @@
 3. [Update Raspian](#update-raspian)
 4. [Check Python Version](#check-python-version)
 5. [Install Blinka](#install-blinka) or [Install Grove](#install-grove)
-6. [Keep running](#keep-it-running)
+6. [Keep it running](#keep-it-running)
 
 ## Prerequisites
 
