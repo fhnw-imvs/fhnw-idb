@@ -4,7 +4,6 @@
 2. [Update Raspian](#update-raspian)
 3. [Check Python Version](#check-python-version)
 4. [Install Blinka](#install-blinka) or [Install Grove](#install-grove)
-5. [Run your first program](#run-your-first-program)
 
 ## Prerequisites
 
@@ -45,7 +44,7 @@ pip 23.0.1 from /usr/lib/python3/dist-packages/pip (python 3.11)
 ```shell
 sudo apt update
 sudo apt install python3
-````
+```
 
 The [python documentation](https://www.raspberrypi.org/documentation/usage/python/) includes chapters on [installing libraries](https://www.raspberrypi.com/documentation/computers/os.html#installing-python-libraries) and using [GPIO in Python](https://www.raspberrypi.org/documentation/usage/gpio/python/README.md).
 
@@ -157,8 +156,4 @@ Connect the [LED](https://github.com/fhnw-imvs/fhnw-idb/wiki/Grove-Actuators#led
 python led.py
 ```
 
-Here are some [code examples](https://github.com/Seeed-Studio/grove.py/blob/master/doc/README.md#gui-graphical-user-interface) by Seeed Studio.
-
-## Run your first program
-
-Now, [run your first program](blink_grove/README.md) and install it permanently on your microcontroller.
+Here are some more [code examples](https://github.com/Seeed-Studio/grove.py/blob/master/doc/README.md#gui-graphical-user-interface) by Seeed Studio.
