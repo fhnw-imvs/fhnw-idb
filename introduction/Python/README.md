@@ -60,32 +60,51 @@ If you are using *Raspberry Pi OS Bookworm*, check [this information](https://ww
 
 Install the [Blinka Python package](https://github.com/adafruit/Adafruit_Blinka) with the following steps, based on [this tutorial](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi) by Adafruit:
 
-Frist create a [Virtual Environment](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi#setup-virtual-environment-3157129))
+Frist create a [Virtual Environment](https://learn.adafruit.com/python-virtual-environment-usage-on-raspberry-pi) for the first blinka project `led`.
 
-```bash
-sudo apt install python3-venv
-python -m venv env --system-site-packages
+```shell
+mkdir led
+cd led
+python -m venv venv
 ```
 
 Activate the virtual environment (every time the Pi is rebooted):
 
 ```bash
-source env/bin/activate
+source venv/bin/activate
 ```
 
 Install the Adafruit packages with:
 
 ```bash
-cd ~
-pip install --upgrade adafruit-python-shell
-wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/raspi-blinka.py
-sudo -E env PATH=$PATH python3 raspi-blinka.py
+pip install Adafruit-Blinka
 ```
 
-and test it using the [Blinka Test](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi#blinka-test-3030038) after a restart and activation of the virtual environment:
+and create the file `led.py` based on the [Blinka Test Example](https://github.com/adafruit/Adafruit_Blinka?tab=readme-ov-file#usage-example):
 
-```bash
-source env/bin/activate
+```python
+import time
+import board
+import digitalio
+
+PIN = board.D5
+
+print("hello blinky!")
+
+led = digitalio.DigitalInOut(PIN)
+led.direction = digitalio.Direction.OUTPUT
+
+while True:
+    led.value = True
+    time.sleep(0.5)
+    led.value = False
+    time.sleep(0.5)
+```
+
+Connect the [LED](https://github.com/fhnw-imvs/fhnw-idb/wiki/Grove-Actuators#led) to pin D5 and run the application with:
+
+```shell
+python led.py
 ```
 
 ## Install Grove
