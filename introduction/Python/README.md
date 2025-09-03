@@ -63,8 +63,8 @@ Install the [Blinka Python package](https://github.com/adafruit/Adafruit_Blinka)
 Frist create a [Virtual Environment](https://learn.adafruit.com/python-virtual-environment-usage-on-raspberry-pi) for the first blinka project `led`.
 
 ```shell
-mkdir led
-cd led
+mkdir blinka-led
+cd blinka-led
 python -m venv venv
 ```
 
@@ -113,10 +113,48 @@ python led.py
 
 To access the GPIOs on the Pi and work with Grove sensors and actuators we use the [Grove Python package](https://github.com/Seeed-Studio/grove.py).
 
+```shell
+mkdir grove-led
+cd grove-led
+python -m venv venv
+```
+
+Activate the virtual environment (every time the Pi is rebooted):
+
+```bash
+source venv/bin/activate
+```
+
 Install the Grove Python package with:
 
 ```shell
-sudo pip install grove.py
+pip install grove.py
+```
+
+and create the file `led.py` based on the [Blinka Test Example](https://github.com/adafruit/Adafruit_Blinka?tab=readme-ov-file#usage-example):
+
+```python
+import time
+from grove.grove_led import GroveLed
+
+# setup
+PIN = 5 # D5
+led = GroveLed(PIN)
+
+print("hello blinky!")
+
+# main loop
+while True:
+    led.on()
+    time.sleep(0.5)
+    led.off()
+    time.sleep(0.5)
+```
+
+Connect the [LED](https://github.com/fhnw-imvs/fhnw-idb/wiki/Grove-Actuators#led) to pin D5 and run the application with:
+
+```shell
+python led.py
 ```
 
 Here are some [code examples](https://github.com/Seeed-Studio/grove.py/blob/master/doc/README.md#gui-graphical-user-interface) by Seeed Studio.
