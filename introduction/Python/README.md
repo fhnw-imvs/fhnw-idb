@@ -1,13 +1,25 @@
 # Getting Started with Python on Raspberry Pi
 
 1. [Prerequisites](#prerequisites)
-2. [Update Raspian](#update-raspian)
-3. [Check Python Version](#check-python-version)
-4. [Install Blinka](#install-blinka) or [Install Grove](#install-grove)
+2. [Hardware](#hardware)
+3. [Update Raspian](#update-raspian)
+4. [Check Python Version](#check-python-version)
+5. [Install Blinka](#install-blinka) or [Install Grove](#install-grove)
+6. [Keep running](#keep-running)
 
 ## Prerequisites
 
 The following steps require a Raspberry Pi Zero W with Raspberry Pi OS Lite, a Linux operating system. To install it, see [Raspberry Pi Zero W Setup](https://github.com/fhnw-imvs/fhnw-idb/wiki/Raspberry-Pi-Zero-W#setup). Make sure to [configure Wi-Fi](https://github.com/fhnw-imvs/fhnw-idb/wiki/Raspberry-Pi-Zero-W#1-flash-raspberry-pi-os-bookworm-onto-an-sd-card) and [enable SSH access](https://github.com/fhnw-imvs/fhnw-idb/wiki/Raspberry-Pi-Zero-W#1-flash-raspberry-pi-os-bookworm-onto-an-sd-card) so you can [find your Pi](https://github.com/fhnw-imvs/fhnw-idb/wiki/Raspberry-Pi-Zero-W#2-boot-the-raspberry-pi-and-connect-via-ssh), if your computer is in the same local Wi-Fi network.
+
+## Hardware
+
+* [Raspberry Pi Zero W](https://github.com/fhnw-imvs/fhnw-idb/wiki/Raspberry-Pi-Zero-W) controller.
+* [Grove Base Hat for Raspberry Pi](https://github.com/fhnw-imvs/fhnw-idb/wiki/Grove-Adapters#grove-base-hat-for-raspberry-pi) to connect sensors.
+* [Grove Red LED](https://github.com/fhnw-imvs/fhnw-idb/wiki/Grove-Actuators#led) wired to Grove _D5_ (see figure 1).
+
+<table><tr><td><img width="640" src="setup.jpg"></td></tr></table>
+
+Figure 1: The LED is connected to Pin `D5`.
 
 ## Update Raspian
 
@@ -51,7 +63,7 @@ The [python documentation](https://www.raspberrypi.org/documentation/usage/pytho
 ## Raspberry Pi OS Bookworm
 
 **Note:**  
-If you are using *Raspberry Pi OS Bookworm*, check [this information](https://www.raspberrypi.com/documentation/computers/os.html#python-on-raspberry-pi).
+If you are using _Raspberry Pi OS Bookworm_, check [this information](https://www.raspberrypi.com/documentation/computers/os.html#python-on-raspberry-pi).
 
 ## Install Blinka
 
@@ -159,3 +171,15 @@ python led.py
 ```
 
 Here are some more [code examples](https://github.com/Seeed-Studio/grove.py/blob/master/doc/README.md#gui-graphical-user-interface) by Seeed Studio.
+
+## Keep running
+
+To keep running a application, even after a reboot, it must be installed as a **systemd service**. Use `systemctl` and  the service file [blink.service](blink.service) to start the python program as system service. Follow these [instructions](https://www.raspberrypi.com/documentation/computers/using_linux.html#the-systemd-daemon) to install the program as a service.
+
+Note:
+
+* If you use print statements in your python program, you can see them using the tool `journalctl`:
+
+  ```shell
+  journalctl -f -u blink.service
+  ```

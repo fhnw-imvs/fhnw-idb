@@ -1,7 +1,7 @@
 # Getting Started with CircuitPython on nRF52840
 
 1. [CircuitPython](#circuitpython)
-2. [Interacting with nRF52840](#interacting-with-nRF52840)
+2. [Interacting with nRF52840](#interacting-with-nrf52840)
 3. [Install and Deploy your own Program](#install-and-deploy-your-own-program)
 
 ## CircuitPython
@@ -31,7 +31,7 @@ If you don't see the `CIRCUITPY` drive, you have to install the firmware yoursel
 
 ## Interacting with nRF52840
 
-Using the Mu editor it is easy to interact with your nRF52840 microcontroller from your computer. There are two possibilities: 
+Using the Mu editor it is easy to interact with your nRF52840 microcontroller from your computer. There are two possibilities:
 
 1. Serial Console
 2. REPL
@@ -48,8 +48,6 @@ If you are not using Mu, you have [other options](https://learn.adafruit.com/wel
 
 REPL (Read-Evaluate-Print-Loop) is also available with the MU-Editor. Read [this chapter](https://learn.adafruit.com/welcome-to-circuitpython/the-repl) to start REPL from the Serial Console.
 
-
 ## Install and Deploy your own Program
 
 Follow these instructions to install a [*Blink* program](blink) permanently on your microcontroller.
-

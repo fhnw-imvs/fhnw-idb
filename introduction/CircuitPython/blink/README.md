@@ -35,17 +35,17 @@ After reading this tutorial on [Creating and Editing Code](https://learn.adafrui
 
 The program `blink.py` toggles the onboard led (red) endlessly.
 
- - How is it possible to run this CircuitPython program on your board?
- - What happens if you reconnect your board? Does the program restart?
+- How is it possible to run this CircuitPython program on your board?
+- What happens if you reconnect your board? Does the program restart?
 
 ## Solution
 
-Copy the file `blink.py` to the board into a file called `code.py`. 
+Copy the file `blink.py` to the board into a file called `code.py`.
 
 - Using the `teminal` applicaton on MacOS:
 
   ```shell
-  $ cp blink.py /Volumes/CIRCUITPY/code.py
+  cp blink.py /Volumes/CIRCUITPY/code.py
   ```
 
 - Using the `cmd` application on Windows (`CIRCUITPY` as `D:`):
@@ -59,4 +59,3 @@ Copy the file `blink.py` to the board into a file called `code.py`.
   Create the new file `code.py` and copy the content of `blink.py` into this file. Save the file on the drive `CIRCUITPY`.
 
 Additional details on how files are run after a reset, are available in the CircuitPython documentation under [Behavior](https://docs.circuitpython.org/en/latest/README.html#behavior).
-
