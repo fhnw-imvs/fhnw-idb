@@ -86,6 +86,7 @@ import time
 import board
 import digitalio
 
+# setup
 PIN = board.D5
 
 print("hello blinky!")
@@ -93,6 +94,7 @@ print("hello blinky!")
 led = digitalio.DigitalInOut(PIN)
 led.direction = digitalio.Direction.OUTPUT
 
+# main loop
 while True:
     led.value = True
     time.sleep(0.5)
