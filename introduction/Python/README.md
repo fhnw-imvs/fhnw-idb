@@ -2,7 +2,7 @@
 
 1. [Prerequisites](#prerequisites)
 2. [Update Raspian](#update-raspian)
-3. [Install Python 3](#install-python-3)
+3. [Check Python Version](#check-python-version)
 4. [Install Blinka](#install-blinka) or [Install Grove](#install-grove)
 5. [Run your first program](#run-your-first-program)
 
@@ -24,15 +24,19 @@ sudo apt upgrade
 A fresh installation of the Raspberry Pi OS Lite has **Python 3 preinstalled**. Check this with:
 
 ```shell
-$ python --version
-Python 3.11.2
+python --version
 ```
 
 You need to install `pip3` to be able to download python packages to your project. Install `pip3` as follows:
 
 ```shell
-$ sudo apt-get install python3-pip
-$ pip --version
+sudo apt-get install python3-pip
+pip --version
+```
+
+and the output should be:
+
+```shell
 pip 23.0.1 from /usr/lib/python3/dist-packages/pip (python 3.11)
 ```
 
