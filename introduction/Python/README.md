@@ -131,7 +131,7 @@ Install the Grove Python package with:
 pip install grove.py
 ```
 
-and create the file `led.py` based on the [Blinka Test Example](https://github.com/adafruit/Adafruit_Blinka?tab=readme-ov-file#usage-example):
+and create the file `led.py` based on the [Grove Test Example](https://github.com/Seeed-Studio/grove.py/blob/master/doc/README.md#grove---led):
 
 ```python
 import time
