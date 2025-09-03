@@ -176,6 +176,8 @@ Here are some more [code examples](https://github.com/Seeed-Studio/grove.py/blob
 
 To keep running a application, even after a reboot, it must be installed as a **systemd service**. Use `systemctl` and  the service file [blink.service](blink.service) to start the python program as system service. Follow these [instructions](https://www.raspberrypi.com/documentation/computers/using_linux.html#the-systemd-daemon) to install the program as a service.
 
+**Warning:** Check the `ExecStart`! It must reference your application using the complete absolute path.
+
 Note:
 
 * If you use print statements in your python program, you can see them using the tool `journalctl`:

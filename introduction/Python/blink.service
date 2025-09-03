@@ -6,10 +6,7 @@ After=network.target
 Type=idleUser=pi
 StandardOutput=inherit
 StandardError=inherit
-# as python script (= option 1)
-ExecStart=/usr/bin/python3 -u /home/pi/blink/blink.py
-# as executable (= option 2)
-#ExecStart=/usr/local/bin/blink/blink
+ExecStart=/usr/bin/python3 -u /home/pi/blinka-led/led.py
 Restart=always
 RestartSec=0
  
