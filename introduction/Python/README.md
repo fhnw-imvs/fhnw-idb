@@ -1,9 +1,10 @@
 # Getting Started with Python on Raspberry Pi
 
 1. [Prerequisites](#prerequisites)
-2. [Install Python 3](#install-python-3)
-3. [Install Blinka](#install-blinka) or [Install Grove](#install-grove)
-4. [Run your first program](#run-your-first-program)
+2. [Update Raspian](#update-raspian)
+3. [Install Python 3](#install-python-3)
+4. [Install Blinka](#install-blinka) or [Install Grove](#install-grove)
+5. [Run your first program](#run-your-first-program)
 
 ## Prerequisites
 
