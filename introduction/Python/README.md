@@ -5,7 +5,7 @@
 3. [Update Raspian](#update-raspian)
 4. [Check Python Version](#check-python-version)
 5. [Install Blinka](#install-blinka) or [Install Grove](#install-grove)
-6. [Keep running](#keep-running)
+6. [Keep running](#keep-it-running)
 
 ## Prerequisites
 
@@ -172,9 +172,9 @@ python led.py
 
 Here are some more [code examples](https://github.com/Seeed-Studio/grove.py/blob/master/doc/README.md#gui-graphical-user-interface) by Seeed Studio.
 
-## Keep running
+## Keep it running
 
-To keep running a application, even after a reboot, it must be installed as a **systemd service**. Use `systemctl` and  the service file [blink.service](blink.service) to start the python program as system service. Follow these [instructions](https://www.raspberrypi.com/documentation/computers/using_linux.html#the-systemd-daemon) to install the program as a service.
+To keep running a application, even after a reboot, it must be installed as a **systemd service**. Use `systemctl` and  the service file [blink.service](blink.service) to start the python program as system service. Follow these [instructions](https://raspberrytips.com/autostart-a-program-on-boot/) to install the program as a service.
 
 **Warning:** Check the `ExecStart`! It must reference your application using the complete absolute path.
 
