@@ -32,7 +32,7 @@ while not radio.is_connected:
         continue
 
 print("Wi-Fi connected to", str(radio.ap_info.ssid, "utf-8"))
-print("IP address", esp.pretty_ip(radio.ip_address))
+print("IP address", radio.pretty_ip(radio.ip_address))
 
 
 # Initialize a requests session
