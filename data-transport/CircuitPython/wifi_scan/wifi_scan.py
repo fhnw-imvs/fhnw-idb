@@ -1,7 +1,7 @@
 import board
 import busio
 import digitalio
-from adafruit_esp32spi import adafruit_esp32spi # :)
+from adafruit_esp32spi import adafruit_esp32spi
 
 # FeatherWing ESP32 AirLift, nRF52840
 cs = digitalio.DigitalInOut(board.D13)
