@@ -9,12 +9,11 @@ Consult [Read Data](https://ch.mathworks.com/help/thingspeak/readdata.html) to g
 * Set your Wi-Fi and your ThingSpeak settings in [thingspeak_http_get_client.py](thingspeak_http_get_client.py) settings.
 * Copy the content of your _thingspeak_http_get_client.py_ to _code.py_ on the _CIRCUITPY_ drive.
 
-
 ## Libraries
 From the [CircuitPython libraries](https://circuitpython.org/libraries) bundle:
 * Copy _lib/adafruit_esp32spi/*_ (see [source](https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/) and [docs](https://circuitpython.readthedocs.io/projects/esp32spi/en/latest/index.html)).
-* Copy _lib/adafruit_bus_device/*_ (see [source](https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/) and [docs](https://circuitpython.readthedocs.io/projects/busdevice/en/latest/index.html)).
-* Copy _lib/adafruit_requests_ (see [source](https://github.com/adafruit/Adafruit_CircuitPython_Requests/) and [docs](https://circuitpython.readthedocs.io/projects/requests/en/latest/index.html)).
+* Copy _lib/adafruit_connection_manager.mpy_ (see [source](https://github.com/adafruit/Adafruit_CircuitPython_ConnectionManager/) and [docs](https://circuitpython.readthedocs.io/projects/connectionmanager/en/latest/index.html)).
+* Copy _lib/adafruit_requests.mpy_ (see [source](https://github.com/adafruit/Adafruit_CircuitPython_Requests/) and [docs](https://circuitpython.readthedocs.io/projects/requests/en/latest/index.html)).
 
 ## Hardware
 * [Feather nRF52840 Express](https://github.com/fhnw-imvs/fhnw-idb/wiki/Feather-nRF52840-Express) microcontroller.
