@@ -10,7 +10,7 @@ How to write simple test data from the FeatherWing ESP32 AirLift Wi-Fi module to
 ## Libraries
 From the [CircuitPython libraries](https://circuitpython.org/libraries) bundle:
 * Copy _lib/adafruit_esp32spi/*_ (see [source](https://github.com/adafruit/Adafruit_CircuitPython_ESP32SPI/) and [docs](https://circuitpython.readthedocs.io/projects/esp32spi/en/latest/index.html)).
-* Copy _lib/adafruit_connection_manager.mpy_ (see [source](https://github.com/adafruit/Adafruit_CircuitPython_Connection_Manager/) and [docs](https://circuitpython.readthedocs.io/projects/connection_manager/en/latest/index.html)).
+* Copy _lib/adafruit_connection_manager.mpy_ (see [source](https://github.com/adafruit/Adafruit_CircuitPython_ConnectionManager/) and [docs](https://circuitpython.readthedocs.io/projects/connectionmanager/en/latest/index.html)).
 * Copy _lib/adafruit_requests.mpy_ (see [source](https://github.com/adafruit/Adafruit_CircuitPython_Requests/) and [docs](https://circuitpython.readthedocs.io/projects/requests/en/latest/index.html)).
 
 ## Hardware
