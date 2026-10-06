@@ -44,7 +44,7 @@ try:
     temperature = 25
 
     # Setup server url
-    post_url = "https://" + TS_HTTP_SERVER + "/update"
+    post_url = "https://" + TS_HTTPS_SERVER + "/update"
     # Create payload
     payload = "api_key=" + TS_WRITE_API_KEY + "&field1=" + \
         str(temperature) + "&field2=" + str(humidity)
