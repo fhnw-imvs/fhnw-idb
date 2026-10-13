@@ -40,8 +40,8 @@ requests = adafruit_requests.Session(pool, context)
 
 try:
     # Some test data
-    humidity = 55
-    temperature = 25
+    humidity = 42
+    temperature = 23
 
     # Setup server url
     post_url = "https://" + TS_HTTPS_SERVER + "/update"
